@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Progate</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <div>
+    <header>
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="navbar">
+            <div class="header-left">
+                <img
+                  class="logo"
+                  src="https://prog-8.com/images/html/advanced/main_logo.png"/>
+              </div>
+          <a href="../main/index.html" id="home"><i class="fa fa-fw fa-home"></i> Home</a>
+          <a href="https://progate.com/languages"><i class="fa fa-fw fa-book"></i> Lessons</a>
+          <a href="https://progate.com/about/company"><i class="fa fa-fw fa-id-badge"></i>About</a>
+          <a href="#" id="contact"><i   class="fa fa-fw fa-user"></i>Contact</a>
+          <a href="../Login/index.html"><i class="fa fa-fw fa-sign-out-alt"></i>Log out</a>
+        </div>
+    </header>
+<div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="map.png" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="../main/index.html">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Select">Select</option>
+            <option value="India">India</option>
+            <option value="Japan">Japan</option>
+            <option value="USA">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit"/>
+        </form>
+      </div>
+    </div>
+  </div>

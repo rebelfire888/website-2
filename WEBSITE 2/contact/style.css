@@ -1,0 +1,97 @@
+.navbar {
+    width: 100%;
+    background-color:  rgba(34, 49, 52, 0.9);;
+    overflow: auto;
+  }
+  
+   .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+   .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #000;
+  }
+  #contact {
+    float: left;
+  }
+  .navbar .active{
+      background-color: #000;
+  }
+  .navbar .header-left{
+      float: left;
+  }
+  #home{
+      margin-left: 2%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 10px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+    .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 5%;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
